@@ -71,6 +71,10 @@ p {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
 }
+.btn-purple:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
 .project-description {
   padding: 160px 20px;
 }
@@ -100,6 +104,7 @@ img {
   .btn-purple {
     padding: 7.5px 10px;
   }
+
   p {
     padding: 0 10px;
   }
