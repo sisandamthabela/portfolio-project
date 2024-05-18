@@ -15,6 +15,15 @@ h6 {
   font-family: var(--Playfair-display-font);
   font-weight: bold;
 }
+h2 {
+  font-size: 64px;
+}
+p {
+  color: var(--font-color);
+  font-family: var(--poppins-font);
+  font-weight: normal;
+  line-height: 30px;
+}
 
 .hero {
   background-color: var(--background-color);
@@ -46,4 +55,20 @@ h6 {
   background-color: var(--secondary-color);
   border-radius: 4px;
   margin: 20px;
+}
+.btn-purple {
+  color: var(--secondary-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+.project-description {
+  padding: 160px 20px;
+}
+img {
+  width: 600px;
+  height: auto;
 }
