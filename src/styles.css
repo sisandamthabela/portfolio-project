@@ -100,4 +100,7 @@ img {
   .btn-purple {
     padding: 7.5px 10px;
   }
+  p {
+    padding: 0 10px;
+  }
 }
