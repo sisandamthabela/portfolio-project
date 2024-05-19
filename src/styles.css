@@ -85,7 +85,7 @@ img {
 }
 .inquiry {
   background-color: var(--background-color);
-  width: 1160px;
+  width: 1260px;
   height: 200px;
   padding: 20px 40px;
   border-radius: 20px;
@@ -107,6 +107,11 @@ img {
   border-radius: 4px;
   margin: 40px;
 }
+.inquiry a:hover {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  transition: all ease-in 100ms;
+}
 footer h3 {
   font-family: var(--poppins-font);
   font-weight: medium;
@@ -122,6 +127,56 @@ footer h3 {
 }
 .margin {
   margin: 0 40px;
+}
+
+.btn-branding-about {
+  color: white;
+  background-color: var(--secondary-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 20px;
+  border-radius: 4px;
+}
+.btn-branding-about:hover {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  transition: all ease-in 100ms;
+}
+.caption {
+  margin: 40px 40px;
+}
+.caption h1 {
+  font-size: 64px;
+}
+.caption img {
+  width: 560px;
+  height: auto;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.logo {
+  width: 150px;
+  height: 42px;
+  margin-left: 64px;
+}
+.navbar {
+  background-color: transparent;
+}
+
+.navbar a {
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--font-color);
+  margin: 50px 40px;
+}
+.navbar a:hover {
+  color: var(--secondary-color);
+}
+.current-tab {
+  color: var(--secondary-color);
 }
 @media (max-width: 640px) {
   h2 {
