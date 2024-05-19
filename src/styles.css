@@ -94,6 +94,7 @@ img {
 }
 .inquiry h2 {
   font-size: 48px;
+  margin: 24px;
 }
 .inquiry a {
   color: white;
@@ -146,5 +147,33 @@ footer h3 {
 
   p {
     padding: 0 10px;
+  }
+  .fa-github,
+  .fa-facebook,
+  .fa-instagram {
+    font-size: 30px;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  .inquiry {
+    width: 90%;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  .inquiry h2 {
+    font-size: 22px;
+    margin: 18px 0px;
+    margin-right: 20px;
+  }
+  .inquiry a {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin: 14px 0;
   }
 }
