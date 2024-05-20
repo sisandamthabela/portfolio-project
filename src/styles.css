@@ -32,7 +32,8 @@ img {
 
 .hero {
   background-color: var(--background-color);
-  padding: 160px 20px;
+  height: 450px;
+
   text-align: center;
 }
 .hero h1 {
@@ -85,7 +86,7 @@ img {
 }
 .inquiry {
   background-color: var(--background-color);
-  width: 1260px;
+  width: 1360px;
   height: 200px;
   padding: 20px 40px;
   border-radius: 20px;
@@ -111,19 +112,6 @@ img {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   transition: all ease-in 100ms;
-}
-footer h3 {
-  font-family: var(--poppins-font);
-  font-weight: medium;
-  font-size: 24px;
-}
-.fa-github,
-.fa-facebook,
-.fa-instagram {
-  color: var(--secondary-color);
-  background-color: var(--background-color);
-  font-size: 40px;
-  border-radius: 50%;
 }
 .margin {
   margin: 0 40px;
@@ -161,22 +149,60 @@ footer h3 {
   height: 42px;
   margin-left: 64px;
 }
-.navbar {
-  background-color: transparent;
+.display h4 {
+  font-family: var(--poppins-font);
+  font-weight: bold;
+  font-size: 24px;
+}
+.display h1 {
+  font-size: 64px;
+  line-height: 90px;
+  text-align: start;
+}
+.display {
+  text-align: center;
+  margin: -20px 100px;
+}
+.contact h1 {
+  font-size: 64px;
+  line-height: 90px;
+  margin: 10px 100px;
+}
+
+.purple-navbar {
+  background-color: var(--background-color);
 }
 
 .navbar a {
   font-family: var(--poppins-font);
   font-size: 16px;
+  font-weight: medium;
   text-decoration: none;
-  color: var(--font-color);
   margin: 50px 40px;
 }
 .navbar a:hover {
   color: var(--secondary-color);
+  transition: all ease-in-out 100ms;
 }
 .current-tab {
   color: var(--secondary-color);
+  font-weight: bold;
+}
+.other-tab {
+  color: var(--font-color);
+}
+footer h3 {
+  font-family: var(--poppins-font);
+  font-weight: medium;
+  font-size: 24px;
+}
+.fa-github,
+.fa-facebook,
+.fa-instagram {
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  font-size: 40px;
+  border-radius: 50%;
 }
 @media (max-width: 640px) {
   h2 {
@@ -203,10 +229,44 @@ footer h3 {
   p {
     padding: 0 10px;
   }
+  .container {
+    text-align: center;
+  }
+  .caption h1 {
+    font-size: 34px;
+    margin-right: 24px;
+  }
+  .caption {
+    text-align: center;
+    margin: 20px;
+  }
+  .caption p {
+    text-align: center;
+    margin-right: 24px;
+  }
+
+  .caption img {
+    width: 360px;
+    height: auto;
+    border: radius 30px;
+    display: block;
+    margin: 30px auto;
+  }
+  .display h1 {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .display img {
+    width: 360px;
+    height: 240px;
+  }
+
   .fa-github,
   .fa-facebook,
   .fa-instagram {
-    font-size: 30px;
+    font-size: 25px;
+    margin: 0 20px;
   }
   footer h3 {
     font-size: 18px;
@@ -230,5 +290,22 @@ footer h3 {
     padding: 12px 20px;
     border-radius: 4px;
     margin: 14px 0;
+  }
+  .logo {
+    width: 75px;
+    height: 21px;
+    margin-left: 24px;
+  }
+  .navbar a {
+    font-family: var(--poppins-font);
+    font-size: 10px;
+    font-weight: medium;
+    text-decoration: none;
+    margin: 20px 7px;
+  }
+  .contact h1 {
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
   }
 }
