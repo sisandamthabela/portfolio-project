@@ -138,8 +138,8 @@ img {
   font-size: 64px;
 }
 .caption img {
-  width: 560px;
-  height: auto;
+  width: 360px;
+  height: 240px;
   border-radius: 30px;
   margin-left: 40px;
   margin-bottom: 40px;
