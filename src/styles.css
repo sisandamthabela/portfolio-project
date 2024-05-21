@@ -138,8 +138,8 @@ img {
   font-size: 64px;
 }
 .caption img {
-  width: 360px;
-  height: 240px;
+  width: 500px;
+  height: auto;
   border-radius: 30px;
   margin-left: 40px;
   margin-bottom: 40px;
@@ -229,33 +229,43 @@ footer h3 {
   p {
     padding: 0 10px;
   }
-  .container {
-    text-align: center;
+  .margin-left {
+    margin-left: 0px;
+    margin-top: -30px;
   }
+
   .caption h1 {
     font-size: 34px;
-    margin-right: 24px;
-  }
-  .caption {
     text-align: center;
-    margin: 20px;
+    padding: 0;
+    margin: 0px;
+    width: 300px;
   }
   .caption p {
     text-align: center;
     margin-right: 24px;
   }
+  .btn-branding-about {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 20px;
+    border-radius: 4px;
+
+    margin-bottom: 30px;
+  }
 
   .caption img {
     width: 360px;
     height: auto;
-    border: radius 30px;
+    border-radius: 30px;
+    margin: 0 24px auto;
     display: block;
-    margin: 30px auto;
   }
   .display h1 {
     font-size: 34px;
     line-height: 40px;
     text-align: center;
+    padding: 0;
   }
   .display img {
     width: 360px;
@@ -292,20 +302,22 @@ footer h3 {
     margin: 14px 0;
   }
   .logo {
-    width: 75px;
-    height: 21px;
+    width: 80px;
+    height: auto;
     margin-left: 24px;
   }
   .navbar a {
-    font-family: var(--poppins-font);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: medium;
     text-decoration: none;
-    margin: 20px 7px;
+    margin: 20px 9px;
   }
+
   .contact h1 {
     font-size: 25px;
     line-height: 50px;
     text-align: center;
+    padding: 0;
+    margin: -10px 0 -20px;
   }
 }
