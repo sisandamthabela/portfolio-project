@@ -269,7 +269,7 @@ footer h3 {
   }
   .display img {
     width: 360px;
-    height: 240px;
+    height: auto;
   }
 
   .fa-github,
